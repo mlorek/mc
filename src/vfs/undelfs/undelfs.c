@@ -292,7 +292,8 @@ undelfs_loaddel (void)
                                                                    (max_delarray + 50));
                 if (!delarray_new)
                 {
-                    message (D_ERROR, undelfserr, "%s", _("no more memory while reallocating array"));
+                    message (D_ERROR, undelfserr, "%s",
+                             _("no more memory while reallocating array"));
                     goto error_out;
                 }
                 delarray = delarray_new;
