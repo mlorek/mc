@@ -625,3 +625,5 @@ context ' ' green
 
 context " " red
     keyword \\" brightred
+
+context ` ` white blue
